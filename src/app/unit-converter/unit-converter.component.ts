@@ -20,31 +20,20 @@ export class UnitConverterComponent {
   celsiusToFahrenheitResult: number | null = null;
   fahrenheitToCelsiusResult: number | null = null;
 
-  convertMeterToFoot() {
+  convertMeterToFoot(): void {
     this.meterToFootResult = Math.round(this.meter * 3.28084);
-    this.footToMeterResult = null;
-    this.celsiusToFahrenheitResult = null;
-    this.fahrenheitToCelsiusResult = null;
   }
 
-  convertFootToMeter() {
+  convertFootToMeter(): void {
     this.footToMeterResult = Math.round(this.foot / 3.28084);
-    this.meterToFootResult = null;
-    this.celsiusToFahrenheitResult = null;
-    this.fahrenheitToCelsiusResult = null;
   }
 
-  convertCelsiusToFahrenheit() {
+  convertCelsiusToFahrenheit(): void {
     this.celsiusToFahrenheitResult = Math.round((this.celsius * 9/5) + 32);
-    this.meterToFootResult = null;
-    this.footToMeterResult = null;
-    this.fahrenheitToCelsiusResult = null;
+
   }
 
-  convertFahrenheitToCelsius() {
+  convertFahrenheitToCelsius(): void {
     this.fahrenheitToCelsiusResult = Math.round((this.fahrenheit - 32) * 5/9);
-    this.meterToFootResult = null;
-    this.footToMeterResult = null;
-    this.celsiusToFahrenheitResult = null;
   }
 }

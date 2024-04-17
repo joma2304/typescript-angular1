@@ -4,7 +4,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #ffffff;
+    background-color: tomato;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
@@ -27,18 +27,18 @@ nav {
             a {
                 color: black;
                 text-decoration: none;
-                font-size: 26px;
+                font-size: 36px;
                 transition: color 0.3s ease;
+
+                &.active-link {
+                    opacity: 0.3;
+                }
             }
 
             a:hover {
-                color: tomato;
+                color: rgb(94, 94, 94);
             }
         }
     }
 
-}
-
-.active-link {
-    font-weight: bold;
 }

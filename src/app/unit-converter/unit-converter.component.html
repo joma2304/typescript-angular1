@@ -1,26 +1,26 @@
 <div class="unit-converter">
     <div class="input-group">
       <label for="meter">Meter:</label>
-      <input type="text" [(ngModel)]="meter" (input)="convertMeterToFoot()">
-      <div class="result" *ngIf="meterToFootResult !== null">{{ meterToFootResult }} Foot</div>
+      <input type="number" [(ngModel)]="meter" (input)="convertMeterToFoot()">
+      <div class="result" *ngIf="meterToFootResult !== null">= {{ meterToFootResult }} Foot</div>
     </div>
   
     <div class="input-group">
       <label for="foot">Foot:</label>
-      <input type="text" [(ngModel)]="foot" (input)="convertFootToMeter()">
-      <div class="result" *ngIf="footToMeterResult !== null">{{ footToMeterResult }} Meter</div>
+      <input type="number" [(ngModel)]="foot" (input)="convertFootToMeter()">
+      <div class="result" *ngIf="footToMeterResult !== null">= {{ footToMeterResult }} Meter</div>
     </div>
   
     <div class="input-group">
       <label for="celsius">Celsius:</label>
-      <input type="text" [(ngModel)]="celsius" (input)="convertCelsiusToFahrenheit()">
-      <div class="result" *ngIf="celsiusToFahrenheitResult !== null">{{ celsiusToFahrenheitResult }} Fahrenheit</div>
+      <input type="number" [(ngModel)]="celsius" (input)="convertCelsiusToFahrenheit()">
+      <div class="result" *ngIf="celsiusToFahrenheitResult !== null">= {{ celsiusToFahrenheitResult }} Fahrenheit</div>
     </div>
   
     <div class="input-group">
       <label for="fahrenheit">Fahrenheit:</label>
-      <input type="text" [(ngModel)]="fahrenheit" (input)="convertFahrenheitToCelsius()">
-      <div class="result" *ngIf="fahrenheitToCelsiusResult !== null">{{ fahrenheitToCelsiusResult }} Celcius</div>
+      <input type="number" [(ngModel)]="fahrenheit" (input)="convertFahrenheitToCelsius()">
+      <div class="result" *ngIf="fahrenheitToCelsiusResult !== null">= {{ fahrenheitToCelsiusResult }} Celcius</div>
     </div>
   </div>
   
