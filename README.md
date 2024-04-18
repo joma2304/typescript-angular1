@@ -4,7 +4,7 @@ Detta är kod till en webbplats som jag skapat med ramverket Angular. Jag har sk
 har även skapat en header komponenet som används på alla sidorna för själva huvudmenyn. Navigationen mellan dem
 olika sidorna på webbplatsen sköts med angulars router modul.
 
-# Kovertering 
+# Konvertering av enheter
 
 Konverteringen av enheter skapade jag även som en egen komponent och sedan implementerade jag den i komponenten för själva sidan där man kan konvertera enheter. Den använder ngModel och databinding för att skriva ut konverteringen, samt ngIf för att se ifall där finns ett resultat eller inte och då väljer att inte skriva ut något ifall där inte finns något svar.
 
