@@ -1,4 +1,18 @@
-# Angular1
+# Om projektet
+
+Detta är kod till en webbplats som jag skapat med ramverket Angular. Jag har skapat varje undersida som en egen komponent, jag
+har även skapat en header komponenet som används på alla sidorna för själva huvudmenyn. Navigationen mellan dem
+olika sidorna på webbplatsen sköts med angulars router modul.
+
+# Kovertering 
+
+Konverteringen av enheter skapade jag även som en egen komponent och sedan implementerade jag den i komponenten för själva sidan där man kan konvertera enheter. Den använder ngModel och databinding för att skriva ut konverteringen, samt ngIf för att se ifall där finns ett resultat eller inte och då väljer att inte skriva ut något ifall där inte finns något svar.
+
+# Styling
+
+För styling på webbplatsen har jag använt mig av SCSS, majoriteten av stylingen har lagts till på själva komponenten som den skall appliceras på, men jag har även lite global styling som gäller för hela sidan. Det var otroligt smidigt att kunna dela upp stylingen i olika komponenter då det är mycket enklare att hålla koll på var koden ligger och till vilka element den gäller.
+
+## Instructions for Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
 
