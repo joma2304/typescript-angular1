@@ -4,7 +4,7 @@ import { UnitConverterComponent } from '../unit-converter/unit-converter.compone
 @Component({
   selector: 'app-convert',
   standalone: true,
-  imports: [UnitConverterComponent],
+  imports: [UnitConverterComponent], //Importera konverterare
   templateUrl: './convert.component.html',
   styleUrl: './convert.component.scss'
 })

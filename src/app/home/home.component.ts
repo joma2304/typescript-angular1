@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NgOptimizedImage],
+  imports: [NgOptimizedImage], //Testar imageoptimizer
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
